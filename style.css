@@ -1,0 +1,26 @@
+h3 
+{
+    font-size:60px !important;
+}
+
+.btn-success:hover
+{
+    background-color: plum;
+}
+
+canvas
+{
+    animation-name:light;
+    animation-duration: 2009ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes light 
+{
+    from {box-shadow: 1px 1px 38px rgb(153, 0, 255);}
+    to{box-shadow: 2px 2px 40px rgb(255, 0, 85);}
+    from {box-shadow: 1px 1px 38px rgb(255, 0, 85);}
+    to {box-shadow: 1px 1px 38px rgb(255, 225, 0);}
+    from {box-shadow: 1px 1px 38px rgb(255, 255, 0);}
+    from {box-shadow: 1px 1px 38px rgb(0, 255, 247);}
+}
